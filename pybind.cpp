@@ -1,3 +1,9 @@
+// https://stackoverflow.com/questions/42276984/hypot-has-not-been-declared
+#ifdef _WIN64
+#define _hypot hypot
+#include <cmath>
+#endif
+
 #include <pybind11/pybind11.h>
 #include <pybind11/eigen.h>
 #include <pybind11/iostream.h>

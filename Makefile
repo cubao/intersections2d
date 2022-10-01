@@ -13,6 +13,7 @@ force_clean:
 	docker run --rm -v `pwd`:`pwd` -w `pwd` -it alpine/make make clean
 
 CMAKE_ARGS ?= \
+	-G'Unix Makefiles' \
 	-DBUILD_SHARED_LIBS=OFF \
 	-DCMAKE_INSTALL_PREFIX=$(INSTALL_DIR)
 build:

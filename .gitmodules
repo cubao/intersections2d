@@ -4,3 +4,6 @@
 [submodule "3rdparties/flatbush"]
 	path = 3rdparties/flatbush
 	url = https://github.com/IMQS/flatbush.git
+[submodule "3rdparties/pybind11"]
+	path = 3rdparties/pybind11
+	url = https://github.com/pybind/pybind11.git

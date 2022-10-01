@@ -13,3 +13,6 @@
 [submodule "3rdparties/dbg"]
 	path = 3rdparties/dbg
 	url = https://github.com/sharkdp/dbg-macro.git
+[submodule "3rdparties/doctest"]
+	path = 3rdparties/doctest
+	url = https://github.com/doctest/doctest.git

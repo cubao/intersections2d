@@ -1,3 +1,6 @@
 [submodule "3rdparties/eigen"]
 	path = 3rdparties/eigen
 	url = https://github.com/libigl/eigen.git
+[submodule "3rdparties/flatbush"]
+	path = 3rdparties/flatbush
+	url = https://github.com/IMQS/flatbush.git

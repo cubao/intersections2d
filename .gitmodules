@@ -1,0 +1,3 @@
+[submodule "3rdparties/eigen"]
+	path = 3rdparties/eigen
+	url = https://github.com/libigl/eigen.git

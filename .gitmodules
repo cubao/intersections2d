@@ -7,3 +7,6 @@
 [submodule "3rdparties/pybind11"]
 	path = 3rdparties/pybind11
 	url = https://github.com/pybind/pybind11.git
+[submodule "3rdparties/optional"]
+	path = 3rdparties/optional
+	url = https://github.com/TartanLlama/optional.git
